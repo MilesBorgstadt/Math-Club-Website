@@ -24,9 +24,14 @@ header {
     flex-direction: row;
 }
 
-.title {
+h1.title {
     margin-left: 2vw;
     align-self: center;
+}
+
+a.title {
+    color: rgb(55, 53, 47);
+    text-decoration: none;
 }
 
 .logo {
@@ -62,4 +67,18 @@ nav {
 
 a {
     color: black;
+}
+
+div.social {
+    border-top: gray 1px;
+    border-bottom: gray 1px;
+}
+
+h2.social {
+    margin: 0px;
+    color: rgb(217, 115, 13);
+}
+
+h1.social {
+    color:rgb(217, 115, 13);
 }
